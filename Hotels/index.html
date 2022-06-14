@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <title>Lagoona</title>
+</head>
+<body>
+   <header>
+       <div class="container">
+            <div class="header-line">
+                <a href="/">
+                    <img src="images/Logo.png" alt="Логотип">
+                </a>
+                <a class="header-number" href="tel:+7495322544834">+7 495 322 54 48 34</a>
+                <a class="header-personal" href="#"><code class="header-pointer">&#10144;</code> Личный кабинет</a>
+            </div>
+            <nav class="header-nav">
+                <ul class="header-list">
+                   <li class="header-list-item ">
+                    <a class="header-link" href="#about">О нас</a>   
+                    </li>
+                   <li class="header-list-item">
+                    <a class="header-link" href="#service">Услуги</a>   
+                    </li>
+                   <li class="header-list-item">
+                    <a class="header-link" href="#advantage">Преимущества</a>   
+                    </li>
+                   <li class="header-list-item">
+                    <a class="header-link" href="#placement">Размещение</a>   
+                    </li>
+                   <li class="header-list-item">
+                    <a class="header-link" href="">Блог</a>   
+                    </li>
+                   <li class="header-list-item">
+                    <a class="header-link" href="">Контакты</a>   
+                    </li>
+                </ul>
+                <form class="header-input" action="https://jsonplaceholder.typicode.com/posts" method="POST">
+                    <input class="header-input-search" type="text"  placeholder="Поиск">
+                    <button class="header-search">
+                    </button>
+                </form>
+            </nav>
+       </div>
+   </header>
+   <main class="main">
+        <section class="first-section">
+            <div class="container first-section-container">
+                    <div class="fast-booking">
+                        <h2 class="section-title">Быстрая бронь</h2>
+                            <form action="https://jsonplaceholder.typicode.com/posts" target="_blank" autocomplete="on" method="POST" class="fast-booking-item">
+                                <input class="fast-booking-input" placeholder="Город" type="text" name="City">
+                                <input class="fast-booking-input" placeholder="Категория номера" type="text" name="Category">
+                                <input class="fast-booking-input" placeholder="Дата заселения" type="text" name="Date">
+                                <input class="fast-booking-input" placeholder="Количество ночей" type="number" name="Nights">
+                                <input class="fast-booking-input" placeholder="Количество гостей" type="number" name="Guests">
+                                <button class="first-btn ">Найти номер</button>
+                                <span class="fast-booking-number">9 756</span> <span>предложений доступно</span>
+                            </form> 
+                    </div>
+
+                    <div class="first-special-block">
+                        <h2 class="section-title">Спецпредложение</h2>
+                        <div class="first-special-items">
+                             <!--<img src="images/Special.png" alt=""-->
+                             <h1 class="first-special-lux"> Номера категории люкс</h1>
+                            <p class="first-special-price"> от 5000 р</p>
+                            <a class="first-special-more" href="/">
+                            Подробнее &#8250;<!--code class="point">&#8250;</code-->
+                            <!--img class="point" src="images/pointer.svg" alt=""-->
+                             </a>
+                        </div>
+                    </div>
+            </div>
+        </section>
+
+        <section class="about-us" id="about">
+            <div class="container">
+                <h2 class="section-title">О нас</h2>
+                 <p class="about-us-paragraph">Идейные соображения высшего порядка, а также сложившаяся структура организации влечет за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям. Идейные соображения высшего порядка, а также дальнейшее развитие различных форм деятельности представляет собой интересный эксперимент проверки системы обучения кадров, соответствует насущным потребностям. Равным образом сложившаяся структура организации требуют определения и уточнения существенных финансовых и административных условий.</p>
+            </div>
+        </section>
+
+        <section class="service" id="service">
+            <div class="container">
+                <h2 class="section-title"> Услуги
+                </h2>
+                <ul class="service-list">
+                    <li class="service-list-item">
+                        <img class="service-list-image" src="images/exclusive.png" alt="Эксклюзивное обслуживание">
+                        <h3 class="service-item-heading">Эксклюзивное обслуживание
+                            <img src="images/pointer.svg" alt="">
+                        </h3>
+                        <p class="service-paragraph">Равным образом постоянный количественный рост и сфера нашей активности</p>
+                    </li>
+                    <li class="service-list-item">
+                        <img class="service-list-image" src="images/rent.png" alt="Аренда банкетных залов">
+                        <h3 class="service-item-heading">Аренда банкетных залов
+                            <img src="images/pointer.svg" alt="">
+                        </h3>
+                        <p class="service-paragraph">Значимость этих проблем настолько очевидна, что дальнейшее развитие различных форм.</p>
+                    </li>
+                    <li class="service-list-item">
+                        <img class="service-list-image" src="images/sauna.png" alt="Сауны, бассейны, бани, фитнес-залы">
+                        <h3 class="service-item-heading">Сауны, бассейны, бани, фитнес-залы
+                            <img src="images/pointer.svg" alt="">
+                        </h3>
+                        <p class="service-paragraph">Не следует, однако забывать, что начало повседневной работы по формированию позиции</p>
+                    </li>
+                    <li class="service-list-item">
+                        <img class="service-list-image" src="images/guard.png" alt="Охраняемые автомобильные стоянки">
+                        <h3 class="service-item-heading">Охраняемые автомобильные стоянки
+                            <img src="images/pointer.svg" alt="">
+                        </h3>
+                        <p class="service-paragraph">Не следует, однако забывать, что начало повседневной работы по формированию позиции</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="advantage" id="advantage">
+            <div class="container">
+                <h2 class="section-title"> Преимущества</h2>
+                <ul class="advantage-list">
+                    <li class="advantage-list-item"> 
+                        <img src="images/bathtub.svg" alt="">
+                        <p class="advantage-list-paragraph">Идейные соображения высшего порядка, а также постоянный количественный рост</p>
+                    </li>
+                    <li class="advantage-list-item"> 
+                        <img src="images/hanger.svg" alt="">
+                        <p class="advantage-list-paragraph">Значимость этих проблем настолько очевидна, что вопрос остается открытым</p>
+                    </li>
+                    <li class="advantage-list-item"> 
+                        <img src="images/heating.svg" alt="">
+                        <p class="advantage-list-paragraph">Таким образом реализация плановых заданий играет важную роль для понимания</p>
+                    </li>
+                    <li class="advantage-list-item"> 
+                        <img src="images/hotel-key.svg" alt="">
+                        <p class="advantage-list-paragraph">Повседневная практика показывает, что сложившаяся структура организации</p>
+                    </li>
+                    <li class="advantage-list-item"> 
+                        <img src="images/parking.svg" alt="">
+                        <p class="advantage-list-paragraph">Равным образом рамки и место обучения кадров способствует подготовки сотрудника</p>
+                    </li>
+                    <li class="advantage-list-item"> 
+                        <img src="images/reception.svg" alt="">
+                        <p class="advantage-list-paragraph">Консультация с активом влечет за собой процесс внедрения услуг нашего сервиса </p>
+                    </li>
+                    <li class="advantage-list-item"> 
+                        <img src="images/security-box.svg" alt="">
+                        <p class="advantage-list-paragraph">Повседневная практика показывает, что дальнейшее развитие различных форм</p>
+                    </li>
+                    <li class="advantage-list-item"> 
+                        <img src="images/swimming-pool.svg" alt="">
+                        <p class="advantage-list-paragraph">Значимость этого настолько очевидна, что консультация наших экспертов помогает</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="placement" id="placement">
+            <div class="container">
+                <h2 class="section-title"> Размещение</h2>
+                <ul class="placement-list">
+                    <li class="placement-item">
+                        <img src="images/1.png" alt="">
+                        <div class="placement-stars"> от <span class="hotel-price"> 4 698 р </span> / ночь 
+                            <div class="stars">
+                                <img src="images/star.png" alt="">
+                                <img src="images/star.png" alt="">
+                                <img src="images/star.png" alt="">
+                                <img src="images/star.png" alt="">
+                                <img src="images/empty_star.png" alt="">
+                            </div>
+                        </div>
+                           <p class="placement-hotels"> Lagoona mentira piadosa </p>
+                            <span class="placement-location" >Барселона, Испания </span>
+                        <button class="btn">
+                            Номера
+                        </button>
+                    </li>
+                    <li class="placement-item">
+                        <img src="images/2.png" alt="">
+                        <div class="placement-stars"> от <span class="hotel-price"> 5 148 р </span> / ночь
+                            <div class="stars">
+                                <img src="images/star.png" alt="">
+                                <img src="images/star.png" alt="">
+                                <img src="images/star.png" alt="">
+                                <img src="images/star.png" alt="">
+                                <img src="images/empty_star.png" alt="">
+                            </div>
+                        </div>                            
+                         <p class="placement-hotels">
+                                Lagoona empujar la creatividad </p>
+                        <span class="placement-location" >Барселона, Испания </span>
+                        <button class="btn">
+                            Номера 
+                        </button>
+                    </li>
+                    <li class="placement-item">
+                        <img src="images/3.png" alt="">
+                        <div class="placement-stars"> от <span class="hotel-price">6 254 р </span> / ночь                        
+                            <div class="stars">
+                                <img src="images/star.png" alt="">
+                                <img src="images/star.png" alt="">
+                                <img src="images/star.png" alt="">
+                                <img src="images/star.png" alt="">
+                                <img src="images/star.png" alt="">
+                            </div>    
+                        </div>
+                        <p class="placement-hotels">        Lagoona el retorno </p>
+                            <span class="placement-location" >Барселона, Испания </span>
+                        <button class="btn">
+                            Номера
+                        </button>
+                    </li>
+                    <li class="placement-item">
+                        <img src="images/4.png" alt="">
+                        <div class="placement-stars"> от <span class="hotel-price"> 6320 р</span> / ночь                        
+                            <div class="stars">
+                                <img src="images/star.png" alt="">
+                                <img src="images/star.png" alt="">
+                                <img src="images/star.png" alt="">
+                                <img src="images/star.png" alt="">
+                                <img src="images/star.png" alt="">
+                            </div>    
+                        </div>
+                        <p class="placement-hotels">        Lagoona enfermo terminó </p>
+
+                            <span class="placement-location" >Барселона, Испания </span>
+                        <button class="btn">
+                            Номера
+                        </button>
+                    </li>
+                    <li class="placement-item">
+                        <img src="images/5.png" alt="">
+                        <div class="placement-stars"> от <span class="hotel-price">6 457р</span> / ночь
+                            <div class="stars">
+                                <img src="images/star.png" alt="">
+                                <img src="images/star.png" alt="">
+                                <img src="images/star.png" alt="">
+                                <img src="images/star.png" alt="">
+                                <img src="images/empty_star.png" alt="">
+                            </div>
+                        </div>                             
+                        <p class="placement-hotels">
+                        Lagoona empujar la creatividad </p>
+                        <span class="placement-location" >Барселона, Испания </span>
+                        <button class="btn">
+                            Номера 
+                       </button>
+                    </li>
+                    <li class="placement-item">
+                        <img src="images/6.png" alt="">
+                        <div class="placement-stars"> от <span class="hotel-price">6 490 р </span> / ночь                        
+                            <div class="stars">
+                                <img class="star" src="images/star.png" alt="">
+                                <img class="star" src="images/star.png" alt="">
+                                <img class="star" src="images/star.png" alt="">
+                                <img class="star" src="images/star.png" alt="">
+                                <img class="star" src="images/empty_star.png" alt="">
+                            </div>    
+                        </div>
+                        <p class="placement-hotels">        Lagoona el retorno </p>
+                            <span class="placement-location" >Барселона, Испания </span>
+                            
+                        <button class="btn">
+                            Номера
+                        </button>
+                    </li>
+                    <li class="placement-item">
+                        <img src="images/7.png" alt="">
+                        <div class="placement-stars"> от <span class="hotel-price">6 505 р</span> / ночь                        
+                            <div class="stars">
+                                <img class="star" src="images/star.png" alt="">
+                                <img class="star" src="images/star.png" alt="">
+                                <img class="star" src="images/star.png" alt="">
+                                <img class="star" src="images/star.png" alt="">
+                                <img class="star" src="images/star.png" alt="">
+                            </div>    
+                        </div>
+                        <p class="placement-hotels">        Lagoona enfermo terminó </p>
+                            <span class="placement-location" >Барселона, Испания </span>
+                        <button class="btn">
+                            Номера
+                        </button>
+                    </li>
+                    <li class="placement-item">
+                        <img src="images/8.png" alt="">
+                        <div class="placement-stars"> от <span class="hotel-price">6 824 р </span> / ночь                        
+                            <div class="stars">
+                                <img class="star" src="images/star.png" alt="">
+                                <img class="star" src="images/star.png" alt="">
+                                <img class="star" src="images/star.png" alt="">
+                                <img class="star" src="images/star.png" alt="">
+                                <img class="star" src="images/empty_star.png" alt="">
+                            </div>    
+                        </div>
+                        <p class="placement-hotels">        Lagoona suerte siguió siempre </p>
+                         <span class="placement-location" >  Барселона, Испания </span> 
+                        
+                        <button class="btn">
+                            Номера
+                        </button>
+                    </li>
+                    <li class="placement-item-more">
+                            <a class="look_all" href="/">Посмотреть все варианты  &#8250;</a>
+                         <!--img class="placement-pointer" src="images/pointer2.svg" alt=""-->
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <div class="container first-section-container">
+                <div>
+                    <h2 class="section-title">
+                        Контакты
+                    </h2>
+                    <div class="form-contacts">
+                       <div class="contact-items contact-info-address">
+                           <h2 class="contact-info"> Адрес
+                           </h2>
+                           <p class="contact-data">Москва, улица Юности, дом 5 строение 4, офис 2</p>
+                       </div>
+                       <div class="contact-items">
+                           <h2 class="contact-info">
+                               Телефоны
+                           </h2>
+                           <div class="contact-data contact-numbers">
+                            <a class="footer-numbers" href="tel:+74995356434">   +7 (499) 535-64-34 </a>
+                            <br> <a class="footer-numbers" href="tel:+74950050544"> +7 (495) 005-05-44 </a>
+                           </div>
+                       </div>
+                       <div class="contact-items contact-info-email">
+                           <h2 class="contact-info "> E-mail</h2>
+                           <p class="contact-data contact-email"> <a class="contact-data-email" href="email:lg.oona@mail.ru">lg.oona@mail.ru</a>  по вопросам
+                            бронирования
+                           <br> <a class="contact-data-email" href="email:hotels.ln@mail.ru">hotels.ln@mail.r</a>  по вопросам сотрудничества</p>
+                       </div>
+                       <div class="contact-items">
+                           <h2 class="contact-info">График</h2>
+                           <p class="contact-data">Понедельник - пятница,
+                            <br>с 10:00 до 19:00</p>
+                       </div>
+                        <button class="first-btn contact-btn">Построить маршрут</button>
+                    </div>
+                </div>
+                <div class="write-us">
+                    <h2 class=" write-us-title">
+                        Напишите нам 
+                    </h2>
+                    <form action="https://jsonplaceholder.typicode.com/posts" class="form-write-us" method="POST">
+                        <input class="fast-booking-input write-us-contacts" placeholder="Имя" type="text" name="name">
+                        <input class="fast-booking-input write-us-contacts" placeholder="+7" type="number" name="phone">
+                        <input class="fast-booking-input write-us-message" placeholder="Сообщение..." type="text" name="Date">
+                        <button class="first-btn write-us-contacts">Отправить</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+   </main>
+
+   <footer >
+       <div class="container footer">
+           <div class="footer-paragraph">
+            <p> © 2012-2020 Управляющая компания Объединенной сети «Лагуна Хотелс» </p>
+            <p class="footer-paragraph-1">Представленная на сайте информация
+            носит справочный характер
+            <br> и не является публичной офертой </p>
+            <a class="privacy-policy" href="#">Политика конфиденциальности </a> 
+           </div>
+           
+           <div class="footer-paragraph-2">
+            <p class="footer-paragraph-3"> 11710, улица Юности, дом 5 строение 4, офис 2 </p>
+            <a class="footer-numbers" href="tel:+74995356434">   +7 (499) 535-64-34 </a>
+              <br> <a class="footer-numbers" href="tel:+74950050544"> +7 (495) 005-05-44 </a>
+               <br> <br><a class="footer-emails" href="email:lg.oona@mail.ru">lg.oona@mail.ru</a>
+               <br> <a class="footer-emails" href="email:hotels.ln@mail.ru "> hotels.ln@mail.ru </a>
+           </div>
+            
+            <ul class="social-list">
+                <li class="social-items">
+                    <a href="#">
+                        <img class="social-icons" src="images/tripadvisor.png" alt="">
+                    </a>
+                </li>
+                <li class="social-items">
+                    <a href="#">
+                        <img class="social-icons" src="images/twitter.png" alt="">
+                    </a>
+                </li>
+                <li class="social-items">
+                    <a href="#">
+                        <img class="social-icons" src="images/facebook.png" alt="">
+                    </a>
+                </li>
+                <li class="social-items">
+                    <a href="#">
+                        <img class="social-icons" src="images/social.png" alt="">
+                    </a>
+                </li>
+                <li class="social-items">
+                    <a href="#">
+                        <img class="social-icons" src="images/google-plus-social-logotype.png" alt="">
+                    </a>
+                </li>
+            </ul>
+       </div>
+   </footer>
+</body>
+</html>
